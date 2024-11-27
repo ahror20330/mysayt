@@ -1,0 +1,46 @@
+.container{
+  .row{
+      .btn:hover{
+        background-color: red!important;
+      }
+    .col-9{
+      img{
+        -webkit-box-shadow: 13px 22px 22px 6px rgba(0,0,0,0.53) !important;
+        -moz-box-shadow: 13px 22px 22px 6px rgba(0,0,0,0.53) !important;
+        box-shadow: 13px 22px 22px 6px rgba(0,0,0,0.53) !important;
+      }
+    }
+    .col-3{
+     img{
+       width: 50px!important;
+       height: 55px!important;
+       margin-top: 200px!important;
+       border-radius: 50% !important;
+       animation: zoom 2s infinite;
+     }
+      img:hover{
+        background-color: red!important;
+      }
+      h2{
+        margin-top: 250px!important;
+      }
+    }
+    .col-6{
+      img{
+        width: 100px!important;
+        height: 40px!important;
+      }
+    }
+    .col-4{
+      display: flex!important;
+      img{
+        width: 40px!important;
+        height: 40px!important;
+        margin-left: 5px!important;
+      }
+    }
+  }
+}
+@keyframes zoom {
+
+}

@@ -1,0 +1,16 @@
+
+.dropdown-menu:hover{
+    background-color: blue;
+}
+.collapse{
+    transition: 10s ease-in-out!important;
+}
+.nav-link{
+    font-size: 15px!important;
+    color: darkblue;!important;
+}
+.nav-link:hover{
+    font-size: 18px!important;
+    text-decoration: underline!important;
+    background-color: blue!important;
+}
